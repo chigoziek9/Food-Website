@@ -7,7 +7,7 @@ const DeliveryDetailsPage = () => {
   const [instructions, setInstructions] = useState("");
   const [phone, setPhone] = useState("+234 801 234 5678");
 const { cart } = useCart();
-  const [deliveryType, setDeliveryType] = useState<"delivery" | "pickup">(
+  const [deliveryType] = useState<"delivery" | "pickup">(
     "delivery",
   );
   const navigate = useNavigate();

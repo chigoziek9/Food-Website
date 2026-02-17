@@ -1,11 +1,14 @@
 import { useLocation } from "react-router-dom";
+import { useState } from "react";
 
 const SuccessPage = () => {
   const location = useLocation();
   const mealName = location.state?.mealName || "Meal";
 
-  const orderNumber =
-    "ORD" + Math.floor(100000000 + Math.random() * 900000000);
+  const [orderNumber] = useState(() =>
+  "ORD" + Math.floor(100000000 + Math.random() * 900000000)
+);
+
 
   return (
     <div className="min-h-screen bg-gray-200 flex flex-col items-center justify-center px-4">
