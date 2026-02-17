@@ -1,0 +1,252 @@
+{
+  "categories": [
+   {
+      "name": "Jollof",
+      "image": "jollof.png",
+      "meals": [
+        {
+          "id": 26,
+          "name": "Classic Nigerian Jollof Rice",
+          "amount": 3500,
+          "image": "Nigerian.webp",
+          "description": "Smoky Nigerian party-style jollof rice cooked in rich tomato and pepper sauce."
+        },
+        {
+          "id": 27,
+          "name": "Senegal Jollof Rice",
+          "amount": 4000,
+          "image": "senegal.webp",
+          "description": "Authentic party jollof rice with grilled chicken and fried plantain."
+        },
+        {
+          "id": 28,
+          "name": "Ghanian Jollof Rice ",
+          "amount": 4500,
+          "image": "Ghanaian.webp",
+          "description": "Delicious jollof rice served with spicy fried turkey."
+        },
+        {
+          "id": 29,
+          "name": "Ofada Jollof",
+          "amount": 3800,
+          "image": "Camaroonian.webp",
+          "description": "Local ofada rice cooked in spicy palm oil sauce."
+        },
+        {
+          "id": 30,
+          "name": "Baked Jollof Rice",
+          "amount": 4200,
+          "image": "baked.png",
+          "description": "Jollof rice infused with rich coconut milk flavor."
+        }
+      ]
+    },
+    {
+      "name": "Swallows & Soups",
+      "image": "soups.png",
+      "meals": [
+        {
+          "id": 6,
+          "name": "Pounded Yam",
+          "amount": 2000,
+          "image": "poundedyam.png",
+          "description": "Soft and stretchy pounded yam swallow."
+          
+        },
+        {
+          "id": 7,
+          "name": "Ewedu And Gbegiri",
+          "amount": 1500,
+          "image": "Ewedu.png",
+          "description": "Hot Ewedu and Gbegiri served smooth and firm."
+        },
+        {
+          "id": 8,
+          "name": "Amala And Gbegiri",
+          "amount": 1800,
+          "image": "Amala.png",
+          "description": "Amala and Gbegiri popular in Yoruba cuisine."
+        },
+        {
+          "id": 9,
+          "name": "Bitterleaf Soup",
+          "amount": 1700,
+          "image": "bitterleaf.png",
+          "description": "Smooth bitterleaf soup perfect with yam or amala."
+          
+        },
+        {
+          "id": 10,
+          "name": "Fufu and Egusi",
+          "amount": 1600,
+          "image": "soups.png",
+          "description": "Soft cassava fufu swallow."
+        }
+      ]
+    },
+    {
+      "name": "Grills & BBQ",
+      "image": "grills.png",
+      "meals": [
+        {
+          "id": 11,
+          "name": "Roasted Beef",
+          "amount": 2500,
+          "image": "Roasted beef.png",
+          "description": "Richly seasoned roasted beef served with a side of vegetables."
+        },
+        {
+          "id": 12,
+          "name": "Nigerian Suya",
+          "amount": 2400,
+          "image": "suya.png",
+          "description": "Spicy grilled meat skewers seasoned with Nigerian spices."
+        },
+        {
+          "id": 13,
+          "name": "Potato chips ",
+          "amount": 2800,
+          "image": "Chipsandvegies.png",
+          "description": "Vegetable soup made with afang leaves and seafood."
+        },
+        {
+          "id": 14,
+          "name": "Corn and Chicken",
+          "amount": 2600,
+          "image": "cornandchicken.png",
+          "description": "Grilled chicken served with corn and vegetables."
+        },
+        {
+          "id": 15,
+          "name": "Pork Meat",
+          "amount": 2700,
+          "image": "pork.png",
+          "description": "Flavorful pork meat with a rich, savory taste."
+        }
+      ]
+    },
+     {
+      "name": "Sweet Treats",
+      "image": "sweet.png",
+      "meals": [
+        {
+          "id": 16,
+          "name": "Egg Rolls",
+          "amount": 2500,
+          "image": "Egg roll.png",
+          "description": "Crispy egg rolls filled with seasoned vegetables and served with dipping sauce."
+        },
+        {
+          "id": 17,
+          "name": "Apple Crumble",
+          "amount": 2400,
+          "image": "Applecrumble.png",
+          "description": "Crispy apple crumble with a buttery, cinnamon-flavored topping."
+        },
+        {
+          "id": 18,
+          "name": "Puff Puff",
+          "amount": 2800,
+          "image": "PUFF.png",
+          "description": "Crispy fried dough balls served with a sweet or savory dipping sauce."
+        },
+        {
+          "id": 19,
+          "name": "scones",
+          "amount": 2600,
+          "image": "scones.png",
+          "description": "Traditional Igbo scones served with a side of tea or coffee."
+        },
+        {
+          "id": 20,
+          "name": "Brownie Bars",
+          "amount": 2700,
+          "image": "Browniebars.png",
+          "description": "Rich and fudgy brownie bars with a chocolatey flavor."
+        }
+      ]
+    },
+      {
+      "name": "Grilled",
+      "image": "grills.png",
+      "meals": [
+        {
+          "id": 21,
+          "name": "Roasted Beef",
+          "amount": 2500,
+          "image": "Roasted beef.png",
+          "description": "Richly seasoned roasted beef served with a side of vegetables."
+        },
+        {
+          "id": 22,
+          "name": "Nigerian Suya",
+          "amount": 2400,
+          "image": "suya.png",
+          "description": "Spicy grilled meat skewers seasoned with Nigerian spices."
+        },
+        {
+          "id": 23,
+          "name": "Potato chips ",
+          "amount": 2800,
+          "image": "Chipsandvegies.png",
+          "description": "Vegetable soup made with afang leaves and seafood."
+        },
+        {
+          "id": 24,
+          "name": "Corn and Chicken",
+          "amount": 2600,
+          "image": "cornandchicken.png",
+          "description": "Grilled chicken served with corn and vegetables."
+        },
+        {
+          "id": 25,
+          "name": "Pork Meat",
+          "amount": 2700,
+          "image": "pork.png",
+          "description": "Flavorful pork meat with a rich, savory taste."
+        }
+      ]
+    },
+     {
+      "name": "Baked",
+      "image": "jollof.png",
+      "meals": [
+        {
+          "id": 26,
+          "name": "Classic Nigerian Jollof Rice",
+          "amount": 3500,
+          "image": "Nigerian.webp",
+          "description": "Smoky Nigerian party-style jollof rice cooked in rich tomato and pepper sauce."
+        },
+        {
+          "id": 27,
+          "name": "Senegal Jollof Rice",
+          "amount": 4000,
+          "image": "senegal.webp",
+          "description": "Authentic party jollof rice with grilled chicken and fried plantain."
+        },
+        {
+          "id": 28,
+          "name": "Ghanian Jollof Rice ",
+          "amount": 4500,
+          "image": "Ghanaian.webp",
+          "description": "Delicious jollof rice served with spicy fried turkey."
+        },
+        {
+          "id": 29,
+          "name": "Ofada Jollof",
+          "amount": 3800,
+          "image": "Camaroonian.webp",
+          "description": "Local ofada rice cooked in spicy palm oil sauce."
+        },
+        {
+          "id": 30,
+          "name": "Baked Jollof Rice",
+          "amount": 4200,
+          "image": "baked.png",
+          "description": "Jollof rice infused with rich coconut milk flavor."
+        }
+      ]
+    }
+  ]
+}
