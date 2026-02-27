@@ -15,7 +15,7 @@ import DeliveryDetailsPage from "./components/DeliveryDetailsPage";
 import PaymentPage from "./components/PaymentPage";
 import ProcessingPage from "./components/ProcessingPage";
 import SuccessPage from "./components/SuccessPage";
-
+import RevenuePage from "./components/Revenue";
 function App() {
   return (
     <>
@@ -36,6 +36,7 @@ function App() {
         <Route path="/payment" element={<PaymentPage />} />
         <Route path="/processing" element={<ProcessingPage />} />
         <Route path="/success" element={<SuccessPage />} />
+        <Route path="/revenue" element={<RevenuePage />} />
       </Routes>
 
       <Footer />

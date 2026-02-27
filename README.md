@@ -1,73 +1,183 @@
-# React + TypeScript + Vite
+Chuks Kitchen – Meals Ordering Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Meals Ordering Web Application built using React, TypeScript, Vite, and Tailwind CSS.
+The application allows users to browse meals, view details, manage cart items, and simulate checkout and payment.
 
-Currently, two official plugins are available:
+📌 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Chuks Kitchen is a frontend food ordering platform designed to simulate a real-world restaurant ordering system.
 
-## React Compiler
+Users can:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Browse meals by category
 
-## Expanding the ESLint configuration
+View detailed meal information
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Add meals to cart
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Increase or decrease meal quantity
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+View cart summary
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Proceed to checkout
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Complete payment simulation
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+The project focuses on clean UI, state management, and responsive design.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🚀 Live Features
+
+✅ Meal category filtering
+✅ Dynamic routing
+✅ Global cart management
+✅ Quantity stepper
+✅ Checkout system
+✅ Payment simulation
+✅ Mobile responsive layout
+
+🛠️ Tech Stack
+
+React
+
+TypeScript
+
+Vite
+
+Tailwind CSS
+
+React Router DOM
+
+Context API
+
+React Hot Toast
+
+📁 Project Structure
+src/
+│
+├── components/
+│   ├── Navbar
+│   ├── QuantityStepper
+│   ├── Breadcrumb
+│   └── ProceedCheckout
+│
+├── context/
+│   └── CartContext
+│
+├── pages/
+│   ├── Home
+│   ├── Meals
+│   ├── MealDetail
+│   ├── Cart
+│   └── Payment
+│
+├── types.ts
+├── App.tsx
+└── main.tsx
+⚙️ Environment Setup
+
+Ensure the following are installed:
+
+Node.js (v18+)
+
+npm
+
+Git
+
+VS Code (recommended)
+
+Check installation:
+
+node -v
+npm -v
+📦 Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/chuks-kitchen.git
+
+Navigate into the project:
+
+cd chuks-kitchen
+
+Install dependencies:
+
+
+npm install
+▶️ Running the Project
+
+Start development server:
+
+npm run dev
+
+Open in browser:
+
+http://localhost:5173
+🏗️ Build for Production
+
+Create production build:
+
+npm run build
+
+Preview production build:
+
+npm run preview
+🧠 State Management
+
+The application uses React Context API for global cart management.
+
+Cart operations include:
+
+Add item to cart
+
+Remove item
+
+Increase quantity
+
+Decrease quantity
+
+Calculate total price
+
+This prevents prop drilling and keeps cart data synchronized across pages.
+
+🌐 Routing
+
+Implemented using React Router v6.
+
+Routes:
+
+/                     → Home
+/meals/:categoryName  → Meals Page
+/meal/:mealId         → Meal Details
+/cart                 → Cart Page
+/payment              → Payment Page
+📱 Responsiveness
+
+The application is fully responsive using Tailwind CSS breakpoints:
+
+Mobile
+
+Tablet
+
+Desktop
+
+Layouts automatically adjust across screen sizes.
+
+🔮 Future Improvements
+
+Backend integration (Node.js / Express)
+
+Database integration
+
+Real payment gateway (Paystack / Flutterwave)
+
+User authentication
+
+Order history
+
+Admin dashboard
+
+👨‍💻 Author
+
+Chigoze Kingsley
+Frontend Developer (React + TypeScript)
+Nigeria 🇳🇬
